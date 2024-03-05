@@ -1,6 +1,6 @@
 # *W-Wave Radio*
 
-## View the Live Demo => Check out [here](tolkynbayeva.github.io/wave/)
+## View the Live Demo => Check out [here](https://tolkynbayeva.github.io/wave_radio/)
 
 ## Description
 
