@@ -2,22 +2,35 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Радио W-Wave</title>
+  <link rel="stylesheet" href="css/normilize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/header.css" />
 </head>
 
 <body>
   <!--Header-->
-  <header class="header">
-    <img src="img/logo.png" alt="логотип сайта" class="logo-img">
+  <header class="header container">
+    <img src="img/logo.png" alt="логотип сайта" class="logo-img" />
     <nav class="header-nav">
       <ul class="header-nav__list">
-        <li class="nav-item">Подкасты</li>
-        <li class="nav-item">Передачи</li>
-        <li class="nav-item">Гости</li>
-        <li class="nav-item">Плейлисты</li>
-        <li class="nav-item">О нас</li>
+        <li class="nav-item">
+          <a href="#" class="nav-item-link">Подкасты</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item-link">Передачи</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item-link">Гости</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item-link">Плейлисты</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item-link">О нас</a>
+        </li>
       </ul>
     </nav>
     <button aria-label="Поиск" type="submit" id="search-form-button" class="search-form-button"></button>
@@ -25,7 +38,8 @@
 
   <main class="main">
     <!-- radio -->
-    <section class="section-radio">
+
+    <!-- <section class="section-radio">
       <h1 class="heading-radio"><span class="h1-span">Радио</span> W-Wave</h1>
       <p class="radio-text">
         Привет, на связи W-Wave! Раньше мы были изданием, а теперь пробуем
@@ -36,9 +50,11 @@
       <button aria-label="Слушать эфир" type="submit" id="radio-form-button" class="radio-form-button">
         Слушать эфир
       </button>
-    </section>
+    </section> -->
+
     <!-- podcasts -->
-    <section class="section-podcasts">
+
+    <!-- <section class="section-podcasts">
       <h2 class="heading-podcasts">Подкасты</h2>
       <ul class="list-podcatst">
         <li class="item-podcasts"></li>
@@ -93,9 +109,12 @@
           <p class="text-desc">Татьяна Флеганова</p>
         </li>
       </ul>
-    </section>
+    </section> -->
+
+
     <!-- broadcast -->
-    <section class="section-broadcast">
+
+    <!-- <section class="section-broadcast">
       <h2 class="heading-podcasts">Передачи</h2>
       <button aria-label="Архив" type="submit" id="broadcast-form-button" class="broadcast-form-button">
         Архив
@@ -147,9 +166,12 @@
           </div>
         </li>
       </ul>
-    </section>
+    </section> -->
+
+
     <!-- guests -->
-    <section class="section-guests">
+
+    <!-- <section class="section-guests">
       <h2 class="heading-podcasts">Гости</h2>
       <p class="guests-text">
         У нас бывают: Блогеры, арт-критики и деятели искусства, музыканты,
@@ -159,7 +181,7 @@
       <ul class="guests-list">
         <li class="guests-item">
           <div class="guests-item-descr">
-            <img src="img/martynova.png" alt="фото Ольги Мартыновой">
+            <img src="img/martynova.png" alt="фото Ольги Мартыновой" />
             <h3 class="headind-desc">Ольга Мартынова</h3>
             <p class="guests-item-descr">
               Российский искусствовед, арт-критик, куратор выставок, дизайнер,
@@ -172,7 +194,7 @@
         </li>
         <li class="guests-item">
           <div class="guests-item-descr">
-            <img src="img/grishsin.png" alt="фото Ольги Мартыновой">
+            <img src="img/grishsin.png" alt="фото Ольги Мартыновой" />
             <h3 class="headind-desc">Денис Гришин</h3>
             <p class="guests-item-descr">
               Однозначно, элементы политического процесса являются только
@@ -185,7 +207,7 @@
         </li>
         <li class="guests-item">
           <div class="guests-item-descr">
-            <img src="img/martynova2.png" alt="фото Ольги Мартыновой">
+            <img src="img/martynova2.png" alt="фото Ольги Мартыновой" />
             <h3 class="headind-desc">Ольга Мартынова</h3>
             <p class="guests-item-descr">
               С другой стороны, высококачественный прототип будущего проекта
@@ -197,9 +219,11 @@
           </div>
         </li>
       </ul>
-    </section>
+    </section> -->
+
     <!-- playlists -->
-    <section class="section-playlists">
+
+    <!-- <section class="section-playlists">
       <h2 class="heading-podcasts">Плейлисты</h2>
       <p class="playlists-text">
         Раздел «Плейлисты» может содержать информацию, не предназначенную для
@@ -207,69 +231,71 @@
       </p>
       <ul class="playlists-list">
         <li class="playlists-item">
-          <img src="img/ploho.png" alt="группа Ploho">
+          <img src="img/ploho.png" alt="группа Ploho" />
           <h3 class="item-heading">Ploho</h3>
           <p class="playlists-item-text">3 последних альбома</p>
         </li>
         <li class="playlists-item">
-          <img src="img/molchatDoma.png" alt="группа Molchat Doma">
+          <img src="img/molchatDoma.png" alt="группа Molchat Doma" />
           <h3 class="item-heading">Molchat Doma</h3>
           <p class="playlists-item-text">Все песни</p>
         </li>
         <li class="playlists-item">
-          <img src="img/Motorama.png" alt="группа Motorama">
+          <img src="img/Motorama.png" alt="группа Motorama" />
           <h3 class="item-heading">Motorama</h3>
           <p class="playlists-item-text">Все синглы</p>
         </li>
         <li class="playlists-item">
-          <img src="img/HumanTetris.png" alt="группа Human Tetris">
+          <img src="img/HumanTetris.png" alt="группа Human Tetris" />
           <h3 class="item-heading">Human Tetris</h3>
           <p class="playlists-item-text">3 последних альбома</p>
         </li>
         <li class="playlists-item">
-          <img src="img/buerak.png" alt="группа Буерак">
+          <img src="img/buerak.png" alt="группа Буерак" />
           <h3 class="item-heading">Буерак</h3>
           <p class="playlists-item-text">Все EP</p>
         </li>
         <li class="playlists-item">
-          <img src="img/day.png" alt="группа Июльские Дни">
+          <img src="img/day.png" alt="группа Июльские Дни" />
           <h3 class="item-heading">Июльские Дни</h3>
           <p class="playlists-item-text">Альбом «Колокол»</p>
         </li>
         <li class="playlists-item">
-          <img src="img/JoyDivision.png" alt="группа Joy Division">
+          <img src="img/JoyDivision.png" alt="группа Joy Division" />
           <h3 class="item-heading">Joy Division</h3>
           <p class="playlists-item-text">Лучшее за всё время</p>
         </li>
         <li class="playlists-item">
-          <img src="img/TheCure.png" alt="группа The Cure">
+          <img src="img/TheCure.png" alt="группа The Cure" />
           <h3 class="item-heading">The Cure</h3>
           <p class="playlists-item-text">Лучшее за всё время</p>
         </li>
         <li class="playlists-item">
-          <img src="img/TheSmiths.png" alt="группа The Smiths">
+          <img src="img/TheSmiths.png" alt="группа The Smiths" />
           <h3 class="item-heading">The Smiths</h3>
           <p class="playlists-item-text">Период 1984–1988</p>
         </li>
         <li class="playlists-item">
-          <img src="img/NewOrder.png" alt="группа New Order">
+          <img src="img/NewOrder.png" alt="группа New Order" />
           <h3 class="item-heading">New Order</h3>
           <p class="playlists-item-text">Хиты</p>
         </li>
         <li class="playlists-item">
-          <img src="img/Bauhaus.png" alt="группа Bauhaus">
+          <img src="img/Bauhaus.png" alt="группа Bauhaus" />
           <h3 class="item-heading">Bauhaus</h3>
           <p class="playlists-item-text">Все синглы</p>
         </li>
         <li class="playlists-item">
-          <img src="img/GangOfFour.png" alt="группа Gang Of Four">
+          <img src="img/GangOfFour.png" alt="группа Gang Of Four" />
           <h3 class="item-heading">Gang Of Four</h3>
           <p class="playlists-item-text">3 последних альбома</p>
         </li>
       </ul>
-    </section>
+    </section> -->
+
     <!-- adv -->
-    <section class="adv">
+    
+    <!-- <section class="adv">
       <h2 class="heading-adv">Будь с нами на одной волне!</h2>
       <p class="adv-text">
         Друзья, рады представить вам продукт нашего производства! Да-да,
@@ -282,9 +308,10 @@
         <span class="adv-text-price">2 800 ₽</span>
       </p>
       <a href="#" class="adv-link">Купить на Яндекс.Маркет</a>
-    </section>
+    </section> -->
+
     <!-- us -->
-    <section class="us">
+    <!-- <section class="us">
       <h2 class="heading-us">О нас</h2>
       <p class="us-text">
         <span class="us-text-span">Приём-приём! Как слышно? Мы уже в эфире? Отлично, поехали!</span>
@@ -296,28 +323,28 @@
       </p>
       <ul class="us-list">
         <li class="us-item">
-          <img src="img/gutenberg.png" alt="портрет Дмитрий Гутенберга">
+          <img src="img/gutenberg.png" alt="портрет Дмитрий Гутенберга" />
           <h3 class="heading-us">Дмитрий Гутенберг</h3>
           <p class="us-item-text">
             Эксперт (ну, почти) по всем вопросам (почти)
           </p>
         </li>
         <li class="us-item">
-          <img src="img/vasileva.png" alt="портрет Анна Васильева">
+          <img src="img/vasileva.png" alt="портрет Анна Васильева" />
           <h3 class="heading-us">Анна Васильева</h3>
           <p class="us-item-text">
             Как я здесь оказалась? А главное — зачем?
           </p>
         </li>
         <li class="us-item">
-          <img src="img/dmitrievskiy.png" alt="портрет Пётр Дмитриевский">
+          <img src="img/dmitrievskiy.png" alt="портрет Пётр Дмитриевский" />
           <h3 class="heading-us">Пётр Дмитриевский</h3>
           <p class="us-item-text">
             Господа! Внимание! Благодарю за внимание!
           </p>
         </li>
         <li class="us-item">
-          <img src="img/fleganova.png" alt="портрет Татьяна Флеганова">
+          <img src="img/fleganova.png" alt="портрет Татьяна Флеганова" />
           <h3 class="heading-us">Татьяна Флеганова</h3>
           <p class="us-item-text">Одна я в пальто стою красивая, а вокруг…</p>
         </li>
@@ -326,19 +353,21 @@
       <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="us-form">
         <textarea name="message" cols="30" rows="8" placeholder="Что скажете?" required
           class="request__textarea"></textarea>
-        <input type="text" name="name" placeholder="Имя" minlength="2" required class="request__input">
-        <input type="email" name="email" placeholder="Email" minlength="2" required class="request__input">
-        <button type="submit" formtarget="_blank" class="request__button">Отправить</button>
+        <input type="text" name="name" placeholder="Имя" minlength="2" required class="request__input" />
+        <input type="email" name="email" placeholder="Email" minlength="2" required class="request__input" />
+        <button type="submit" formtarget="_blank" class="request__button">
+          Отправить
+        </button>
         <label class="request__label">
-          <input type="checkbox">
+          <input type="checkbox" />
           <span class="footer__checkbox">Согласен на обработку данных</span>
         </label>
       </form>
-    </section>
+    </section> -->
   </main>
 
-  <footer class="footer">
-    <img src="img/logo.png" alt="логотип сайта" class="logo-img">
+  <!-- <footer class="footer">
+    <img src="img/logo.png" alt="логотип сайта" class="logo-img" />
     <ul class="social-list">
       <li class="item-icon">
         <a href="#" class="footer__icon icon-youtube" tabindex="0" aria-label="youtube"></a>
@@ -382,7 +411,7 @@
         </li>
       </ul>
     </nav>
-  </footer>
+  </footer> -->
 </body>
 
 </html>

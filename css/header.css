@@ -1,0 +1,33 @@
+.header {
+  height: 88px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  margin-right: 83px;
+}
+
+.header-nav__list {
+  display: flex;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 61px; 
+}
+
+.nav-item-link {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.search-form-button {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  background-image: url(/img/svg/search.svg);
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+}
+

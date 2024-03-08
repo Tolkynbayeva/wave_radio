@@ -1,0 +1,107 @@
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller-Regular'),
+		url('fonts/MullerRegular.woff2') format('woff2'),
+		url('fonts/MullerRegular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller-Medium'),
+		url('fonts/MullerMedium.woff2') format('woff2'),
+		url('fonts/MullerMedium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller-Bold'),
+		url('fonts/MullerBold.woff2') format('woff2'),
+		url('fonts/MullerBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+:root {
+  --color-white: #FFFFFF;
+	--color-black: #121723;
+	--color-purple: #6D31EE;
+  --color-grey: #A1A6B4;
+	--color-yellow: #F0D288;
+}
+
+html {
+	box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button, input {
+	font: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3, p {
+	padding: 0;
+	margin: 0;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
+body {
+	min-width: 320px;
+	margin: 0;
+	background: var(--color-white);
+	font-family: 'Muller', Arial, sans-serif;
+	font-size: 16px;
+	color: var(--color-black);
+	line-height: 32px;
+	text-align: left;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  /* padding: 0 405px; */
+}
