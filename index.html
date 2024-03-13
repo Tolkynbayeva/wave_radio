@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/normilize.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/radio.css" />
+  <link rel="stylesheet" href="css/podcasts.css" />
 </head>
 
 <body>
@@ -35,11 +37,9 @@
     </nav>
     <button aria-label="Поиск" type="submit" id="search-form-button" class="search-form-button"></button>
   </header>
-
   <main class="main">
     <!-- radio -->
-
-    <!-- <section class="section-radio">
+    <section class="section-radio container">
       <h1 class="heading-radio"><span class="h1-span">Радио</span> W-Wave</h1>
       <p class="radio-text">
         Привет, на связи W-Wave! Раньше мы были изданием, а теперь пробуем
@@ -50,66 +50,69 @@
       <button aria-label="Слушать эфир" type="submit" id="radio-form-button" class="radio-form-button">
         Слушать эфир
       </button>
-    </section> -->
-
+    </section>
     <!-- podcasts -->
-
-    <!-- <section class="section-podcasts">
-      <h2 class="heading-podcasts">Подкасты</h2>
-      <ul class="list-podcatst">
-        <li class="item-podcasts"></li>
-        <li class="item-podcasts">
-          <div class="card-desc">
-            <p class="card-date">14 июня</p>
-            <p class="card-time">15:43</p>
-            <h3 class="headind-desc">Европа. XIX век</h3>
+    <section class="section-podcasts">
+      <div class="container">
+        <h2 class="section-heading heading-podcasts">Подкасты</h2>
+        <ul class="list-podcatst">
+          <li class="item-podcasts">
+            <div class="card-desc">
+              <p class="card-date">14 июня</p>
+              <p class="card-time">15:43</p>
+              <h3 class="headind-desc">Европа. XIX век</h3>
+              <p class="text-desc">Дмитрий Гутенберг</p>
+            </div>
+          </li>
+          <li class="item-podcasts">
+            <div class="card-desc">
+              <p class="card-date">8 июня</p>
+              <p class="card-time">8:54</p>
+              <h3 class="headind-desc">Люди сегодня</h3>
+              <p class="text-desc">Анна Васильева</p>
+            </div>
+          </li>
+          <li class="item-podcasts">
+            <div class="card-desc">
+            <p class="card-date">2 июня</p>
+            <p class="card-time">7:03</p>
+            <h3 class="headind-desc">Обо всём</h3>
+            <p class="text-desc">Пётр Дмитриевский</p>
+            </div>
+          </li>
+          <li class="item-podcasts">
+            <p class="card-date">22 мая</p>
+            <p class="card-time">16:04</p>
+            <h3 class="headind-desc">Источник звука</h3>
+            <p class="text-desc">Пётр Дмитриевский</p>
+          </li>
+          <li class="item-podcasts">
+            <p class="card-date">11 июня</p>
+            <p class="card-time">5:32</p>
+            <h3 class="headind-desc">О музыке</h3>
             <p class="text-desc">Дмитрий Гутенберг</p>
-          </div>
-        </li>
-        <li class="item-podcasts">
-          <p class="card-date">8 июня</p>
-          <p class="card-time">8:54</p>
-          <h3 class="headind-desc">Люди сегодня</h3>
-          <p class="text-desc">Анна Васильева</p>
-        </li>
-        <li class="item-podcasts">
-          <p class="card-date">2 июня</p>
-          <p class="card-time">7:03</p>
-          <h3 class="headind-desc">Обо всём</h3>
-          <p class="text-desc">Пётр Дмитриевский</p>
-        </li>
-        <li class="item-podcasts">
-          <p class="card-date">22 мая</p>
-          <p class="card-time">16:04</p>
-          <h3 class="headind-desc">Источник звука</h3>
-          <p class="text-desc">Пётр Дмитриевский</p>
-        </li>
-        <li class="item-podcasts">
-          <p class="card-date">11 июня</p>
-          <p class="card-time">5:32</p>
-          <h3 class="headind-desc">О музыке</h3>
-          <p class="text-desc">Дмитрий Гутенберг</p>
-        </li>
-        <li class="item-podcasts">
-          <p class="card-date">5 июня</p>
-          <p class="card-time">9:04</p>
-          <h3 class="headind-desc">Хэллоу, Африка!</h3>
-          <p class="text-desc">Пётр Дмитриевский</p>
-        </li>
-        <li class="item-podcasts">
-          <p class="card-date">28 мая</p>
-          <p class="card-time">9:15</p>
-          <h3 class="headind-desc">Физика цвета</h3>
-          <p class="text-desc">Татьяна Флеганова</p>
-        </li>
-        <li class="item-podcasts">
-          <p class="card-date">18 мая</p>
-          <p class="card-time">6:55</p>
-          <h3 class="headind-desc">Правила этикета</h3>
-          <p class="text-desc">Татьяна Флеганова</p>
-        </li>
-      </ul>
-    </section> -->
+          </li>
+          <li class="item-podcasts">
+            <p class="card-date">5 июня</p>
+            <p class="card-time">9:04</p>
+            <h3 class="headind-desc">Хэллоу, Африка!</h3>
+            <p class="text-desc">Пётр Дмитриевский</p>
+          </li>
+          <li class="item-podcasts">
+            <p class="card-date">28 мая</p>
+            <p class="card-time">9:15</p>
+            <h3 class="headind-desc">Физика цвета</h3>
+            <p class="text-desc">Татьяна Флеганова</p>
+          </li>
+          <li class="item-podcasts">
+            <p class="card-date">18 мая</p>
+            <p class="card-time">6:55</p>
+            <h3 class="headind-desc">Правила этикета</h3>
+            <p class="text-desc">Татьяна Флеганова</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
 
     <!-- broadcast -->
@@ -294,7 +297,7 @@
     </section> -->
 
     <!-- adv -->
-    
+
     <!-- <section class="adv">
       <h2 class="heading-adv">Будь с нами на одной волне!</h2>
       <p class="adv-text">

@@ -1,0 +1,38 @@
+.section-radio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-image: url('/img/microphone.png');
+  background-repeat: no-repeat;
+  background-position:  right center;
+}
+
+
+.heading-radio {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.h1-span {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.radio-text {
+  margin-top: 18px;
+  max-width: 594px;
+  line-height: 24px;
+}
+
+.radio-form-button {
+  margin-top: 45px;
+  width: 245px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-white);
+  border-radius: 40px;
+  background-color: var(--color-purple);
+  border: transparent;
+}

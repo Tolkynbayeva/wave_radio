@@ -1,0 +1,19 @@
+.section-podcasts {
+  padding-top: 88px;
+  padding-bottom: 94px;
+  background-color: #e6e7ec;
+}
+
+.list-podcatst {
+  display: flex;
+}
+
+.item-podcasts {
+  width: 540px;
+  height: 140px;
+}
+
+
+
+
+

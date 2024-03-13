@@ -103,5 +103,10 @@ body {
 .container {
   max-width: 1110px;
   margin: 0 auto;
-  /* padding: 0 405px; */
+}
+
+.section-heading {
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 48px;
 }
