@@ -1,19 +1,102 @@
 .section-podcasts {
-  padding-top: 88px;
+  margin-bottom: 94px;
+  padding-top: 90px;
   padding-bottom: 94px;
   background-color: #e6e7ec;
 }
 
+.heading-podcasts {
+  margin-bottom: 33px;
+}
+
 .list-podcatst {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .item-podcasts {
   width: 540px;
   height: 140px;
+  display: flex;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
+.item-podcasts:not(:last-child) {
+  margin-bottom: 30px;
+}
 
+.podcasts-date {
+  width: 112px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.card-date {
+  width: 51px;
+  padding-top: 5px;
+  align-self: flex-end;
+  background-color: #E6E8EC;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+}
 
+.card-desc {
+  margin-left: 30px;
+  align-self: center;
+}
+
+.card-time {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.headind-desc {
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.text-desc {
+  margin-top: 4px;
+  line-height: 16px;
+  color: var(--color-grey);
+}
+
+.podcast-one {
+  background-image: url(/img/podOne.png);
+}
+
+.podcast-two {
+  background-image: url(/img/podTwo.png);
+}
+
+.podcast-three {
+  background-image: url(/img/podThree.png);
+}
+
+.podcast-four {
+  background-image: url(/img/podFour.png);
+}
+
+.podcast-five {
+  background-image: url(/img/podFive.png);
+}
+
+.podcast-six {
+  background-image: url(/img/podSix.png);
+}
+
+.podcast-seven {
+  background-image: url(/img/podSeven.png);
+}
+
+.podcast-eight {
+  background-image: url(/img/podEight.png);
+}
 
