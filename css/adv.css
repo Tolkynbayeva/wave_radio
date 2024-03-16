@@ -1,0 +1,55 @@
+.adv {
+  padding-top: 94px;
+  padding-bottom: 129px;
+  background-color: #292E39;
+  color: var(--color-white);
+}
+
+.adv-block {
+  padding-right: 5px;
+  padding-left: 666px;
+  background-image: url(../img/advRadioNew.png), url(../img/advRadio.png);
+  background-repeat: no-repeat;
+}
+
+.heading-adv {
+  width: 440px;
+  margin-bottom: 18px;
+  padding-bottom: 29px;
+  color: var(--color-yellow);
+  background-image: url(../img/svg/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.adv-text {
+  width: 440px;
+  line-height: 28.8px;
+}
+
+.adv-text:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.adv-text-price {
+  margin-top: 30px;
+  display: block;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.adv-link {
+  margin-top: 17px;
+  padding: 25px 10px 25px 42px;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-yellow);
+  border: 2px solid var(--color-yellow);
+  border-radius: 100px;
+  background-image: url(../img/svg/logoAdv.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+}

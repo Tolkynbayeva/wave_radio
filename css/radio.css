@@ -1,11 +1,10 @@
 .section-radio {
   padding-top: 110px;
   padding-bottom: 94px;
-  background-image: url('/img/microphone.png');
+  background-image: url('../img/microphone.png');
   background-repeat: no-repeat;
-  background-position:  right center;
+  background-position: right center;
 }
-
 
 .heading-radio {
   font-size: 60px;

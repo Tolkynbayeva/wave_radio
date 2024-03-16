@@ -13,7 +13,7 @@
 .archive-descr {
   height: 249px;
   padding-top: 120px;
-  background-image: url(/img/broadcastMic.png);
+  background-image: url(../img/broadcastMic.png);
   background-repeat: no-repeat;
   background-position-y: 7px;
 }
@@ -75,31 +75,31 @@
   margin-top: 20px;
   line-height: 16px;
   font-style: italic;
-  background-image: url(/img/svg/arrow.svg);
+  background-image: url(../img/svg/arrow.svg);
   background-repeat: no-repeat;
   background-position-x: 87px;
 }
 
 .broadcast-one {
-  background-image: url(/img/broadcastOne.png);
+  background-image: url(../img/broadcastOne.png);
 }
 
 .broadcast-two {
-  background-image: url(/img/broadcastTwo.png);
+  background-image: url(../img/broadcastTwo.png);
 }
 
 .broadcast-three {
-  background-image: url(/img/broadcastThree.png);
+  background-image: url(../img/broadcastThree.png);
 }
 
 .broadcast-four {
-  background-image: url(/img/broadcastFour.png);
+  background-image: url(../img/broadcastFour.png);
 }
 
 .broadcast-five {
-  background-image: url(/img/broadcastFive.png);
+  background-image: url(../img/broadcastFive.png);
 }
 
 .broadcast-six {
-  background-image: url(/img/broadcastSix.png);
+  background-image: url(../img/broadcastSix.png);
 }

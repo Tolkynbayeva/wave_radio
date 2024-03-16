@@ -1,5 +1,6 @@
 .section-playlists {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 67px;
   display: flex;
   justify-content: space-between;
 }
@@ -9,7 +10,7 @@
 }
 
 .playlists-text {
-  max-width: 294px;
+  max-width: 302px;
   line-height: 22px;
   color: var(--color-grey);
 }
@@ -41,7 +42,7 @@
 }
 
 .playlists-item {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   border: 1px solid #E6E8EC;
 }
 
