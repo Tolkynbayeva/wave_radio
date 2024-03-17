@@ -60,5 +60,13 @@
   color: var(--color-grey);
 }
 
+@media (max-width: 1024px) {
+  .section-playlists {
+    flex-direction: column;
+  }
 
+  .playlists-text {
+    max-width: 100%;
+  }
+}
 

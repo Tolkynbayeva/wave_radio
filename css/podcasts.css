@@ -100,3 +100,17 @@
   background-image: url(../img/podEight.png);
 }
 
+@media (max-width: 1024px) {
+  .item-podcasts {
+    width: 396px;
+  }
+
+  .heading-podcasts {
+    margin-bottom: 30px;
+  }
+
+  .card-date {
+    padding-bottom: 2px;
+   }
+
+}

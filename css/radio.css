@@ -48,3 +48,18 @@
 .radio-form-button:active {
   background-color: #4F28A5;
 }
+
+@media (max-width: 1024px) {
+  .section-radio {
+    padding-top: 90px;
+    background-size: 256px 262px;
+   }
+
+   .radio-text {
+    max-width: 549px;
+   }
+
+   .radio-form-button {
+    margin-top: 21px;
+   }
+}

@@ -82,3 +82,13 @@
   background-color: #4F28A5;
   border: transparent;
 }
+
+@media (max-width: 1024px) {
+  .guests-text {
+    width: 65%;
+  }
+
+  .guests-item-descr {
+    width: 44%;
+  }
+}

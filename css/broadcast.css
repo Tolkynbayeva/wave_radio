@@ -128,3 +128,9 @@
 .broadcast-six {
   background-image: url(../img/broadcastSix.png);
 }
+
+@media (max-width: 1024px) {
+  .broadcast-list {
+    width: 553px;
+  }
+}
