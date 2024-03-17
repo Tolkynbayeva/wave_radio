@@ -54,7 +54,7 @@
 }
 
 .guests-item-link {
-  display: block;
+  display: inline-block;
   width: 160px;
   padding: 12px 0;
   font-size: 16px;
@@ -64,4 +64,21 @@
   text-align: center;
   border-radius: 77px;
   border: 2px solid #AA9DFA;
+}
+
+.guests-item-link:hover {
+  color: var(--color-white);
+  background-color: #AA9DFA;
+}
+
+.guests-item-link:focus {
+  color: var(--color-white);
+  background-color: var(--color-purple);
+  border: transparent;
+}
+
+.guests-item-link:active {
+  color: var(--color-white);
+  background-color: #4F28A5;
+  border: transparent;
 }

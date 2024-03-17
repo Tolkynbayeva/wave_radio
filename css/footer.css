@@ -32,17 +32,24 @@
   background-size: contain;
 }
 
-.icon-youtube {
-  background-image: url(../img/svg/youtoubeIcon.svg);
+.icon-youtube:hover path, 
+.icon-ok:hover path,
+.icon-vk:hover path {
+  fill: #6D31EE;
 }
 
-.icon-ok {
-  background-image: url(../img/svg/OKIcon.svg);
+.icon-youtube:focus path,
+.icon-ok:focus path,
+.icon-vk:focus path {
+  fill: #AA9DFA;
 }
 
-.icon-vk {
-  background-image: url(../img/svg/VKIcon.svg);
+.icon-youtube:active path,
+.icon-ok:active path,
+.icon-vk:active path {
+  fill: #4F28A5;
 }
+
 
 .footer-nav {
   display: flex;
@@ -57,6 +64,19 @@
 .footer-nav-item:not(:last-child) {
   margin-bottom: 20px;
 } 
+
+.footer-nav-link:hover {
+  color: var(--color-purple);
+}
+
+.footer-nav-link:focus {
+  padding: 3px;
+  background-color: #AA9DFA;
+}
+
+.footer-nav-link:active {
+  color: #4F28A5;
+}
 
 .footer-span {
   display: block;

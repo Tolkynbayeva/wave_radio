@@ -52,7 +52,7 @@
 
 .broadcast-item-descr {
   width: 255px;
-  padding: 160px 0 20px 16px;
+  padding: 160px 0 12px 16px;
   background-repeat: no-repeat;
   background-size: 255px 148px;
 }
@@ -71,14 +71,39 @@
 }
 
 .broadcast-link {
-  display: block;
+  display: inline-block;
   margin-top: 20px;
   line-height: 16px;
   font-style: italic;
-  background-image: url(../img/svg/arrow.svg);
   background-repeat: no-repeat;
   background-position-x: 87px;
 }
+
+.broadcast-link:hover {
+  color: var(--color-purple);
+}
+
+.broadcast-link:focus {
+  padding: 2px;
+  background-color: #AA9DFA;
+  color: var(--color-white);
+}
+
+.broadcast-link:active {
+  color: #4F28A5;
+}
+
+/*arrow interactive*/
+.broadcast-link:hover path {
+  fill: var(--color-purple);
+}
+.broadcast-link:focus path {
+  fill: var(--color-white);
+}
+.broadcast-link:active path {
+  fill: #4F28A5;
+}
+
 
 .broadcast-one {
   background-image: url(../img/broadcastOne.png);

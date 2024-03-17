@@ -40,16 +40,48 @@
 }
 
 .adv-link {
-  margin-top: 17px;
-  padding: 25px 10px 25px 42px;
   display: inline-block;
+  margin-top: 17px;
+  padding: 21px 10px 22px 12px;
   font-size: 20px;
   line-height: 20px;
   font-weight: 500;
   color: var(--color-yellow);
   border: 2px solid var(--color-yellow);
   border-radius: 100px;
-  background-image: url(../img/svg/logoAdv.svg);
   background-repeat: no-repeat;
   background-position: 10px 50%;
+}
+
+.adv-link:hover {
+  color: var(--color-black);
+  background-color: var(--color-yellow);
+}
+
+.adv-link:focus {
+  color: var(--color-black);
+  background-color: #BB973E;
+  border: 2px solid var(--color-yellow);
+}
+
+.adv-link:active {
+  color: var(--color-black);
+  background-color: #BB973E;
+  border: transparent;
+}
+
+/*logo interactive*/
+.adv-link:hover svg path:first-child {
+  fill: #121723; 
+}
+
+.adv-link:hover svg path:last-child {
+  fill: #F0D288; 
+}
+
+.adv-link:active svg path:first-child {
+  fill: #121723; 
+}
+.adv-link:active svg path:last-child {
+  fill: #BB973E; 
 }

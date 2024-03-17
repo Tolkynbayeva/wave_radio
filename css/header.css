@@ -17,17 +17,42 @@
 }
 
 .nav-item-link {
+  display: inline-block;
   font-size: 20px;
   line-height: 20px;
+}
+
+.nav-item-link:hover {
+  color: var(--color-purple);
+}
+
+.nav-item-link:focus {
+  padding: 4px 10px;
+  color: var(--color-white);
+  background-color: #AA9DFA;
+}
+
+.nav-item-link:active {
+  color: #4F28A5;
 }
 
 .search-form-button {
   width: 24px;
   height: 24px;
   margin-left: auto;
-  background-image: url(../img/svg/search.svg);
   background-color: transparent;
   background-size: cover;
   border: none;
 }
 
+.search-form-button:hover path {
+  stroke: #AA9DFA;
+}
+
+.search-form-button:focus path {
+  stroke: #AA9DFA;
+}
+
+.search-form-button:active path {
+  stroke: #4F28A5;
+}
