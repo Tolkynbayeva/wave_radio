@@ -85,3 +85,77 @@
 .adv-link:active svg path:last-child {
   fill: #BB973E; 
 }
+
+@media (max-width: 1024px) {
+  .adv {
+    padding-bottom: 95px;
+  }
+
+  .adv-block {
+    padding-left: 425px;
+    background-size: 100px 100px, 397px 349px;
+    background-position: 0 123px;
+  }
+
+  .adv-text {
+    width: 395px;
+  }
+}
+
+@media (max-width: 768px) {
+  .adv-block {
+    padding-top: 523px;
+    padding-left: 0;
+    background-size: 160px 160px, 540px 474px;
+    background-position: 0 0;
+  }
+
+  .adv {
+    padding-top: 54px;
+  }
+
+  .adv-text {
+    width: 540px;
+  }
+
+  .adv-text-price {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .adv{
+    padding-bottom: 54px;
+  }
+
+  .adv-block {
+    padding-top: 262px;
+    padding-left: 0;
+    background-size: 62px 62px, 256px 225px;
+    background-position: 0 0;
+  }
+
+  .heading-adv {
+    width: 100%;
+    padding-bottom: 22px;
+  }
+
+  .adv-text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .adv-text-price {
+    margin-top: 12px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .adv-link {
+    margin-top: 6px;
+    padding: 10px 8px 13px 18px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}

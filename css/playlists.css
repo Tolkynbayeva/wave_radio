@@ -70,3 +70,74 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .section-playlists {
+    padding-bottom: 64px;
+  }
+
+  .playlists-list {
+    width: 100%;
+    padding-top: 28px;
+  }
+  
+  .playlists-item {
+    display: flex;
+    width: 255px;
+    height: 112px;
+    margin-bottom: 30px;
+  }
+
+  .playlist-card-descr {
+    padding-top: 37px;
+  }
+
+  .item-heading {
+    margin-left: 11px;
+  }
+
+  .playlists-item-text {
+    margin-left: 10px
+  }
+}
+
+@media (max-width: 768px) {
+  .section-playlists {
+    padding-bottom: 82px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-playlists {
+    padding-top: 56px;
+    padding-bottom: 25px;
+  }
+
+  .playlists-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .playlists-text-span {
+    margin-bottom: 10px;
+  }
+
+  .playlists-item {
+    width: 113px;
+    height: 159px;
+    flex-direction: column;
+  }
+
+  .item-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .playlists-item-text {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  .playlist-card-descr {
+    padding-top: 9px;
+  }
+}

@@ -63,3 +63,39 @@
     margin-top: 21px;
    }
 }
+
+@media (max-width: 768px) {
+  .section-radio {
+    background-image: none;
+  }
+
+  .radio-form-button {
+    margin-top: 18px;
+   }
+}
+
+@media (max-width: 320px) {
+  .section-radio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .heading-radio {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .radio-text {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .radio-form-button {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}

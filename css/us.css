@@ -42,6 +42,27 @@
   margin-bottom: 20px;
 }
 
+.us-card-descr {
+  padding-top: 285px;
+  background-repeat: no-repeat;
+}
+
+.us-card-one {
+  background-image: url(../img/gutenberg.png);
+}
+
+.us-card-two {
+  background-image: url(../img/vasileva.png);
+}
+
+.us-card-three {
+  background-image: url(../img/dmitrievskiy.png);
+}
+
+.us-card-four {
+  background-image: url(../img/fleganova.png);
+}
+
 .heading-card-us {
   margin-bottom: 8px;
   font-size: 20px;
@@ -109,7 +130,7 @@
 
 .request-button {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   padding: 23px 53px;
   font-size: 20px;
   line-height: 20px;
@@ -180,4 +201,159 @@
 
 .custom-checkbox-input:checked+.custom-checkbox-text::after {
   opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .us {
+    background-image: url(../img/us.png);
+    background-position: 87.5% 144px;
+  }
+
+  .us-text {
+    padding-right: 289px;
+  }
+
+  .us-list {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .us-item {
+    width: 397px;
+    margin-bottom: 30px;
+  }
+
+  .us-card-one {
+    background-image: url(../img/1024gutenberg.png);
+  }
+  
+  .us-card-two {
+    background-image: url(../img/1024vasileva.png);
+  }
+  
+  .us-card-three {
+    background-image: url(../img/1024dmitrievskiy.png);
+  }
+  
+  .us-card-four {
+    background-image: url(../img/f1024leganova.png);
+  }
+
+  .us-form {
+    width: 100%;
+  }
+  
+  .request-input {
+    width: 396px;
+  }
+
+  .request-button {
+    margin-bottom: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .us {
+    background-image: url(../img/us768.png);
+    background-position: 0 473px;
+  }
+
+  .us-text {
+    padding-right: 0;
+    margin-bottom: 170px;
+  }
+
+  .us-item {
+    width: 255px;
+  }
+
+  .us-card-one {
+    background-image: url(../img/gutenberg.png);
+  }
+  
+  .us-card-two {
+    background-image: url(../img/vasileva.png);
+  }
+  
+  .us-card-three {
+    background-image: url(../img/dmitrievskiy.png);
+  }
+  
+  .us-card-four {
+    background-image: url(../img/fleganova.png);
+  }
+
+  .request-input {
+    width: 100%;
+  }
+
+  .request-button {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .us {
+    padding-top: 54px;
+    padding-bottom: 45px;
+    background-image: none;
+  }
+
+  .us-text-span {
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .us-text {
+    width: 93%;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 22px;
+  } 
+
+  .us-item {
+    width: 113px;
+  }
+
+  .us-card-descr {
+    padding-top: 122px;
+    background-size: 113px 113px;
+  }
+
+  .heading-card-us {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .us-item-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .request-textarea {
+    padding: 15px 0 0 23px;
+  }
+
+  .request-input {
+    height: 50px;
+    padding-left: 23px;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .request-button {
+    margin-bottom: 9px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px 43px;
+  }
+
+  .custom-checkbox-text {
+    font-size: 9px;
+    line-height: 9px;
+  }
 }
