@@ -1,8 +1,4 @@
 @media (max-width: 1310px) {
-  .container {
-    max-width: 1024px;
-  }
-
   /* header */
   .header__container {
     min-height: 144px;
@@ -49,11 +45,9 @@
     margin-bottom: 21px;
   }
 
-
-
   /* podcasts */
   .podcasts__item {
-    width: 396px;
+    width: 48.3%;
   }
 
   .podcasts__date {
@@ -72,6 +66,7 @@
   .broadcast__list {
     width: 540px;
   }
+
 
   /* guests */
   .guests__text {
@@ -135,13 +130,12 @@
   }
 
   .adv__container {
-    padding-left: 425px;
     background-size: 100px 100px, 397px 349px;
-    background-position: 0 123px;
-  }
+    background-position: 0 117px, 0 122px; 
+   }
 
-  .adv__text {
-    width: 395px;
+  .adv__content {
+    max-width: 396px;
   }
 
 
@@ -211,9 +205,9 @@
 
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 840px) {
   .container {
-    max-width: 768px;
     padding: 0 114px;
   }
 
@@ -231,9 +225,12 @@
   }
 
   .header__nav-link {
+    min-width: 44px;
     font-size: 16px;
     line-height: 16px;
   }
+
+
 
   /* radio */
   .radio {
@@ -268,12 +265,12 @@
   .broadcast__heading--mobile {
     display: block;
     margin-bottom: 122px;
-  } 
+  }
 
   .broadcast__archive {
     display: none;
   }
-  
+
   .broadcast__list {
     margin-bottom: 90px;
     padding-top: 0;
@@ -301,43 +298,64 @@
     width: 100%;
   }
 
+  .guests__item {
+    min-height: 642px;
+  }
+
   .guests__card {
     flex-direction: column;
   }
 
-  .guests__item-descr {
-    margin-top: 28px;
-    width: 67%;
+  .guests__card-img {
+    margin-bottom: 30px;
   }
 
+  .guests__item-descr {
+    width: 100%;
+  }
 
   .guests__item-text {
     margin-bottom: 29px;
-  }
+  } 
 
   /* playlists */
   .playlists {
-    padding-bottom: 82px;
+    padding-bottom: 111px;
+  }
+
+  .playlists__title {
+    margin-bottom: 11px;
   }
 
   /* adv */
-  .adv__container {
-    padding-top: 523px;
-    padding-left: 0;
-    background-size: 160px 160px, 540px 474px;
-    background-position: 0 0;
-  }
-
   .adv {
     padding-top: 54px;
   }
 
-  .adv__text {
-    width: 540px;
+  .adv__container {
+    display: flex;
+    min-height: 1072px;
+    background-size: 160px 160px, 540px 474px;
+    background-position: 0 0;
+  }
+
+  .adv__content {
+    max-width: 100%;
+    margin: 0;
+    align-content: end;
+  }
+
+  .adv__title {
+    width: 70%;
+  }
+
+  .adv__text--svg {
+    margin-bottom: 12px;
+    padding-top: 33px;
   }
 
   .adv__price {
-    margin-top: 60px;
+    margin-top: 57px; 
   }
 
 
@@ -428,9 +446,9 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 680px) {
   .container {
-    max-width: 320px;
+    /* max-width: 516px; */
     padding: 0 32px;
   }
 
@@ -455,7 +473,6 @@
 
   .header__nav {
     min-height: 50px;
-    align-content: end;
     overflow: scroll;
   }
 
@@ -466,7 +483,7 @@
 
   /* radio */
   .radio {
-   padding: 40px 0;
+    padding: 40px 0;
   }
 
   .radio__heading {
@@ -505,6 +522,7 @@
   .podcasts__date {
     width: 100%;
     height: 72px;
+    background-position-x: 0;
   }
 
   .podcasts__card-date {
@@ -527,106 +545,50 @@
     line-height: 12px;
   }
 
-  .podcasts__date--one {
-    background-image: url(../img/320podOne.png);
-  }
-
-  .podcasts__date--two {
-    background-image: url(../img/320podTwo.png);
-  }
-
-  .podcasts__date--three {
-    background-image: url(../img/320podThree.png);
-  }
-
-  .podcasts__date--four {
-    background-image: url(../img/320podFour.png);
+ .podcasts__date--one {
+    background-position-y: -40px;
   }
 
   .podcasts__date--five {
-    background-image: url(../img/320podFive.png);
-  }
-
-  .podcasts__date--six {
-    background-image: url(../img/320podSix.png);
-  }
-
-  .podcasts__date--seven {
-    background-image: url(../img/320podSeven.png);
-  }
-
-  .podcasts__date--eight {
-    background-image: url(../img/320podEight.png);
+    background-position-y: -3px;
   }
 
 
   /* broadcast */
+  .container--bg {
+    background-image: url(../img/broadcastMic.png);
+    background-repeat: no-repeat;
+    background-size: 77px 105px;
+    background-position: 4% 92%;
+  }
+
   .broadcast {
     padding: 54px 0;
   }
 
   .broadcast__heading--mobile {
-  margin-bottom: 30px;
-  }
-
-.broadcast__list {
-  max-width: 256px;
-}
-
-.broadcast__item {
-  width: 113px;
-  min-height: 99px;
-  padding-top: 50px;
-  background-size: 113px 50px;
-}
-
-.broadcast__item-descr {
-  width: 100%;
-  padding: 9px;
-}
-
-.broadcast__title {
-  font-size: 12px;
-  line-height: 12px;
-}
-
-.broadcast__text {
-  font-size: 9px;
-  line-height: 9px;
-}
-
-.broadcast__link {
-  font-size: 12px;
-  line-height: 12px;
-}
-
-
-  /* .broadcast__archive-link {
-    width: 110px;
-  }
-
-  .broadcast__archive-text {
-    max-width: 166px;
-    margin-bottom: -4px;
-    padding: 8px 0;
-    font-size: 14px;
-    line-height: 21px;
+    margin-bottom: 30px;
   }
 
   .broadcast__list {
-    margin-top: -7px;
+    max-width: 256px;
+    margin-bottom: 60px;
   }
 
-  .broadcast__item-descr {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  .broadcast__item {
     width: 113px;
-    height: 149px;
-    padding: 60px 7px 12px 9px;
+    min-height: 149px;
+    padding-top: 50px;
     background-size: 113px 50px;
   }
 
+  .broadcast__item-descr {
+    width: 100%;
+    min-height: 95px;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+  }
 
   .broadcast__title {
     font-size: 12px;
@@ -634,7 +596,7 @@
   }
 
   .broadcast__text {
-    width: 90px;
+    margin-bottom: 0;
     font-size: 9px;
     line-height: 9px;
   }
@@ -642,26 +604,41 @@
   .broadcast__link {
     font-size: 12px;
     line-height: 12px;
+    margin-top: auto;
   }
 
   .broadcast__archive--mobile {
-    width: 320px;
     display: flex;
     flex-direction: column-reverse;
-    padding-left: 100px;
-    padding-top: 24px;
-    background-size: 77px 105px;
-    background-position: 10px 32px;
-  } */
+    padding-left: 68px;
+    background-image: none;
+    background-position: 0;
+  }
+
+  .broadcast__archive-link {
+    max-width: 110px;
+    margin-bottom: 0;
+    padding: 9px;
+  }
+
+  .broadcast__archive-text {
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 21px;
+  }
 
 
   /* guests */
   .guests {
-    padding: 55px 0;
+    padding: 54px 0;
+  }
+
+  .guests__title {
+    margin-bottom: 11px;
   }
 
   .guests__descr-span {
-    margin-bottom: -1px;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 21px;
   }
@@ -672,42 +649,60 @@
     line-height: 22px;
   }
 
-  .guests__item-descr {
-    width: 100%;
-    margin-top: 11px;
-  }
-
-  .guests__link {
-    width: 150px;
-    padding: 8px 0;
+  .guests__item {
+    min-height: 525px;
   }
 
   .guests__item:not(:last-child) {
     margin-bottom: 30px;
+}
+
+  .guests__card-img {
+    margin-bottom: 11px;
   }
+
+  .guests__link {
+    padding: 8px 13px;
+  }
+
+
 
   /* playlists */
   .playlists {
-    padding-top: 56px;
-    padding-bottom: 25px;
+    padding: 54px 0;
+    gap: 28px;
   }
 
   .playlists__text {
+    width: 88%;
     font-size: 12px;
     line-height: 16px;
   }
 
+  .playlists__list {
+    gap: 29px;
+  }
+
   .playlists__date {
-    margin-bottom: 10px;
+    line-height: 22px;
   }
 
   .playlists__item {
     width: 113px;
-    height: 159px;
     flex-direction: column;
   }
 
+  .playlists__card-img {
+    height: 113px;
+  }
+
+  .playlists__img-country {
+    right: 0;
+    left: auto;
+  }
+
   .playlist__card-title {
+    margin-bottom: 5px;
     font-size: 12px;
     line-height: 12px;
   }
@@ -718,7 +713,8 @@
   }
 
   .playlist__card {
-    padding-top: 9px;
+    padding-top: 10px;
+    align-self: start;
   }
 
 
@@ -728,34 +724,41 @@
   }
 
   .adv__container {
-    padding-top: 262px;
-    padding-left: 0;
+    min-height: 798px;
     background-size: 62px 62px, 256px 225px;
-    background-position: 0 0;
   }
+
 
   .adv__title {
     width: 100%;
-    padding-bottom: 22px;
+    margin-bottom: 12px;
   }
 
   .adv__text {
-    width: 100%;
     font-size: 14px;
     line-height: 22px;
   }
 
+  .adv__text--svg {
+    margin-bottom: 12px;
+    padding-top: 29px;
+    background-size: auto;
+  }
+
   .adv__price {
-    margin-top: 12px;
+    margin: 34px 0 20px 0;
     font-size: 24px;
     line-height: 24px;
   }
 
   .adv__link {
-    margin-top: 6px;
-    padding: 10px 8px 13px 18px;
+    width: 256px;
+    min-height: 50px;
+    align-content: center;
+    text-align: center;
+    padding: 0;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 32px;
   }
 
 

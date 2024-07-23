@@ -250,7 +250,7 @@ body {
 }
 
 .podcasts__item {
-	width: 540px;
+	width: 48.6%;
 	min-height: 140px;
 	display: flex;
 	background-color: var(--color-white);
@@ -304,35 +304,40 @@ body {
 }
 
 .podcasts__date--one {
-	background-image: url(../img/podOne.png);
+	background-image: url(../img/podcasts/podOne.png);
 }
 
 .podcasts__date--two {
-	background-image: url(../img/podTwo.png);
+	background-image: url(../img/podcasts/podTwo.png);
 }
 
 .podcasts__date--three {
-	background-image: url(../img/podThree.png);
+	background-image: url(../img/podcasts/podThree.png);
 }
 
 .podcasts__date--four {
-	background-image: url(../img/podFour.png);
+	background-image: url(../img/podcasts/podFour.png);
+	background-position-x: -35px;
 }
 
 .podcasts__date--five {
-	background-image: url(../img/podFive.png);
+	background-image: url(../img/podcasts/podFive.png);
 }
 
 .podcasts__date--six {
-	background-image: url(../img/podSix.png);
+	background-image: url(../img/podcasts/podSix.png);
+	background-position-x: -153px;
 }
 
 .podcasts__date--seven {
-	background-image: url(../img/podSeven.png);
+	background-image: url(../img/podcasts/podSeven.png);
 }
 
 .podcasts__date--eight {
-	background-image: url(../img/podEight.png);
+	background-color: #f4f2cb;
+	background-image: url(../img/podcasts/podEight.png);
+	background-blend-mode: multiply;
+	background-position-x: -67px;
 }
 
 /* broadcast */
@@ -664,33 +669,36 @@ body {
 }
 
 .adv__container {
-	padding-right: 5px;
-	padding-left: 666px;
 	background-image: url(../img/advRadioNew.png), url(../img/advRadio.png);
 	background-repeat: no-repeat;
 }
 
+.adv__content {
+	max-width: 445px;
+	margin-left: auto;
+}
+
 .adv__title {
-	width: 440px;
-	margin-bottom: 18px;
-	padding-bottom: 29px;
+	margin-bottom: 16px;
 	color: var(--color-yellow);
+}
+
+.adv__text--svg {
+	margin-bottom: 12px;
+	padding-top: 30px;
 	background-image: url(../img/svg/Vector.svg);
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: top left;
+	background-size: contain;
+
 }
 
 .adv__text {
-	width: 440px;
-	line-height: 28.8px;
-}
-
-.adv__text:not(:last-child) {
-	margin-bottom: 13px;
+	line-height: 29px;
 }
 
 .adv__price {
-	margin-top: 30px;
+	margin: 30px 0;
 	display: block;
 	font-size: 30px;
 	line-height: 30px;
@@ -699,7 +707,6 @@ body {
 
 .adv__link {
 	display: inline-block;
-	margin-top: 17px;
 	padding: 21px 10px 22px 12px;
 	font-size: 20px;
 	line-height: 20px;
@@ -747,8 +754,7 @@ body {
 
 /* us */
 .us {
-	padding-top: 94px;
-	padding-bottom: 85px;
+	padding: 94px 0;
 	background-color: var(--color-black);
 	color: var(--color-white);
 	background-image: url(../img/svg/usVector.svg);
