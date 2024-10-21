@@ -122,7 +122,6 @@
   }
 
   .adv__container {
-
     background-size: 100px 100px, 397px 349px;
     background-position: 0% 22%, 0% 43%;
   }
@@ -227,6 +226,7 @@
 
   /* broadcast */
   .broadcast {
+    padding-bottom: 0;
     flex-direction: column;
   }
 
@@ -269,6 +269,132 @@
   .broadcast__archive-link {
     margin-bottom: 6px;
   }
+
+  /* guests */
+  .guests__card {
+    max-width: 540px;
+    flex-direction: column;
+  }
+
+  .guests__card-img {
+    margin-bottom: 30px;
+  }
+
+  .guests__item-descr {
+    padding-left: 0;
+  }
+
+  .guests__item-text {
+    max-width: 360px;
+    margin-bottom: 29px;
+  }
+
+  /* playlists */
+  .playlists {
+    padding-bottom: 112px;
+  }
+
+  /* adv */
+  .adv {
+    padding-top: 54px;
+  }
+
+  .adv__container {
+    padding-top: 523px;
+    background-size: 160px 160px, 540px 474px;
+    background-position: 0% 0%, 0% 0%;
+  }
+
+  .adv__content {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .adv__title {
+    width: 70%;
+    margin-bottom: 19px;
+  }
+
+  .adv__text--svg {
+    background-image: url('../img/svg/Vector768.svg');
+  }
+
+  /* us */
+  .us {
+    background-image: url('../img/svg/usVector768.svg');
+    background-position: -1.5% 25.3%;
+  }
+
+
+  .us__text {
+    width: 100%;
+    margin-bottom: 170px;
+  }
+
+  .us__item {
+    width: 255px;
+  }
+
+  .us__input-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .us__input {
+    width: 100%;
+  }
+
+  /* footer */
+  .footer {
+    background-image: none;
+
+  }
+
+  .footer__container {
+    max-width: 540px;
+    flex-direction: column;
+    gap: 88px;
+    padding-bottom: 78px;
+  }
+
+  .footer__social {
+    align-self: center;
+  }
+
+  .footer__logo-img {
+    margin-bottom: 12px;
+  }
+
+  .footer__social-list {
+    padding-left: 8px;
+    gap: 34px;
+  }
+
+  .footer__icon svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer__nav-list {
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .footer__nav-item {
+    margin-left: 0;
+  }
+
+  .footer__nav-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .footer__span {
+    background-image: url('../img/svg/footerVector768.svg');
+    background-repeat: no-repeat;
+    padding-top: 21px;
+  }
+
 }
 
 @media (max-width: 640px) {
