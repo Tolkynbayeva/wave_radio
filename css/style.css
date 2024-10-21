@@ -475,7 +475,6 @@ body {
 }
 
 /* guests */
-
 .guests {
   padding: 94px 0;
   background-color: var(--color-black);
@@ -795,29 +794,13 @@ body {
   width: 255px;
 }
 
-.us__img-card {
-	margin-bottom: 30px;
-	height: 255px;
-	overflow: hidden;
-}
-
 .us__item-img {
   width: 100%;
   height: 255px;
   margin-bottom: 18px;
-  object-fit: cover;
-	/* object-position: 84% -24px; */
-	/* transform: scale(1.6); */
-	zoom: 50%;
+  object-fit: contain;
 }
 
-.us__img-two {
-	object-position: 8% -23px;
-}
-
-.us__img-three {
-	object-position: 8% -13px;
-}
 
 .us__card-title {
   margin-bottom: 8px;

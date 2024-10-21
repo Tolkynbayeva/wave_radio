@@ -159,6 +159,29 @@
   .us__item {
     width: 397px;
   }
+
+  .us__item-img {
+    margin-bottom: 19px;
+  }
+
+  .us__form {
+    width: 100%;
+  }
+
+  .us__input {
+    width: 400px;
+  }
+
+  /* footer */
+  .footer {
+    background-position-x: center;
+    background-size: auto;
+  }
+
+
+  .footer__container {
+    max-width: 824px;
+  }
 }
 
 @media (max-width: 980px) {
