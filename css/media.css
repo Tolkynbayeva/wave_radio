@@ -59,9 +59,105 @@
     column-gap: 30px;
   }
 
-
   .broadcast__list {
     /* width: 540px; */
+  }
+
+  /* guests */
+  .guests__text {
+    max-width: 536px;
+  }
+
+  /* playlists */
+  .playlists {
+    flex-direction: column;
+    gap: 27px;
+  }
+
+  .playlists__descr {
+    width: 100%;
+  }
+
+  .playlists__text {
+    max-width: 100%;
+  }
+
+  .playlists__list {
+    padding-top: 0;
+    width: 100%;
+    gap: 28px 0;
+  }
+
+  .playlists__item {
+    width: 255px;
+    flex-direction: row;
+  }
+
+  .playlist__card {
+    padding-left: 10px;
+    padding-right: 3px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .playlists__card-img {
+    height: 112px;
+  }
+
+  .playlists__img {
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+    object-position: top left;
+  }
+
+  .playlists__img-country {
+    left: 0;
+  }
+
+  /* adv */
+  .adv {
+    padding: 94px 0;
+  }
+
+  .adv__container {
+
+    background-size: 100px 100px, 397px 349px;
+    background-position: 0% 22%, 0% 43%;
+  }
+
+  .adv__content {
+    max-width: 397px;
+  }
+
+  .adv__text--svg {
+    background-size: auto;
+  }
+
+  /* us */
+  .us {
+    background-image: url('../img/svg/usDawn.svg');
+    background-position: 86.5% 144px;
+  }
+
+
+  .us__title {
+    margin-bottom: 12px;
+  }
+
+  .us__text {
+    width: 65%;
+    padding-right: 0;
+  }
+
+  .us__list {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .us__item {
+    width: 397px;
   }
 }
 
@@ -224,25 +320,7 @@
     padding-top: 3px;
   }
 
-  .podcasts__date--one {
-    background-position-y: -39px;
-  }
-
-  .podcasts__date--four {
-    background-position-x: 0;
-  }
-
-  .podcasts__date--five {
-    background-position-y: -3px;
-  }
-
-  .podcasts__date--six {
-    background-position-x: 0;
-  }
-
-  .podcasts__date--eight {
-    background-position-x: 0;
-  }
+  /* Настройте позиционирование фонов подкастов для мобильных устройств */
 
   .podcasts__desc {
     padding: 30px 16px 32px 16px;
@@ -273,8 +351,6 @@
 
   .broadcast__heading--mobile {
     margin-bottom: 15px;
-    font-size: 24px;
-    line-height: 24px;
   }
 
   .broadcast__item {
@@ -311,10 +387,8 @@
     font-size: 12px;
     line-height: 12px;
     font-style: italic;
-    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg width='28' height='12' viewBox='0 0 28 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z' fill='%236D31EE' /%3e%3c/svg%3e ");
     color: var(--color-purple);
   }
-
 
   .broadcast__archive--mobile {
     display: flex;
