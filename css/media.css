@@ -59,10 +59,6 @@
     column-gap: 30px;
   }
 
-  .broadcast__list {
-    /* width: 540px; */
-  }
-
   /* guests */
   .guests__text {
     max-width: 536px;
@@ -398,6 +394,11 @@
 }
 
 @media (max-width: 640px) {
+  .section__heading {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
   .container {
     padding: 0 32px;
   }
@@ -451,8 +452,6 @@
 
   .podcasts__heading {
     margin-bottom: 19px;
-    font-size: 24px;
-    line-height: 24px;
   }
 
   .podcasts__item {
@@ -469,7 +468,23 @@
     padding-top: 3px;
   }
 
-  /* Настройте позиционирование фонов подкастов для мобильных устройств */
+  .podcasts__date--four {
+    background-image: url(../img/podcasts/podFour.png);
+    background-position-x: 0;
+  }
+
+  .podcasts__date--five {
+    background-position-y: top;
+  }
+
+  .podcasts__date--six {
+    background-image: url(../img/podcasts/podSix.png);
+    background-position-x: 0;
+  }
+
+  .podcasts__date--eight {
+    background-position-x: center;
+  }
 
   .podcasts__desc {
     padding: 30px 16px 32px 16px;
@@ -487,7 +502,7 @@
 
   /* broadcast */
   .broadcast {
-    padding: 54px 0;
+    padding: 54px 0 48px 0;
   }
 
   .broadcast__list {
@@ -500,6 +515,7 @@
 
   .broadcast__heading--mobile {
     margin-bottom: 15px;
+    font-weight: 400;
   }
 
   .broadcast__item {
@@ -567,4 +583,254 @@
     font-size: 14px;
     line-height: 21px;
   }
+
+  /* guests */
+  .guests {
+    padding: 54px 0;
+  }
+
+  .guests__title {
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+
+  .guests__descr-span {
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .guests__text {
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+
+  .guests__card {
+    max-width: 256px;
+}
+
+.guests__list {
+  gap: 28px;
+}
+
+.guests__card-img {
+  margin-bottom: 12px;
+}
+
+.guests__item-text {
+  max-width: 256px;
+  margin-bottom: 29px;
+}
+
+.guests__link {
+  padding: 9px 13px;
+}
+
+/* playlists */
+.playlists {
+  padding: 54px 0;
+}
+
+.playlists__title {
+  margin-bottom: 10px;
+}
+
+.playlists__text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.playlists__date {
+  margin-bottom: 12px;
+}
+
+.playlists__list {
+  gap: 29px 0;
+}
+
+.playlists__item {
+  width: 113px;
+  flex-direction: column;
+}
+
+.playlists__img-country {
+  left: auto;
+}
+
+.playlist__card {
+  padding: 10px 0 10px 9px;
+  align-self: flex-start;
+}
+
+.playlist__card-title {
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.playlists__card-text {
+  font-size: 9px;
+  line-height: 9px;
+}
+
+
+/* adv */
+.adv {
+  padding: 54px 0;
+}
+
+.adv__container {
+  padding-top: 261px;
+  background-size: 62px 62px, 256px 225px;
+  background-position: 0% 0%, 0% 0%;
+}
+
+.adv__title {
+  width: 100%;
+  margin-bottom: 11px;
+}
+
+.adv__text {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.adv__text--svg {
+  margin-bottom: 10px;
+}
+
+.adv__price {
+  margin: 9px 0 20px 0;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.adv__link {
+  padding: 0;
+  min-width: 256px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* us */
+.us {
+  padding: 54px 0 47px 0;
+  background-image: none;
+}
+
+.us__text {
+  margin-bottom: 28px;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.us__text-span {
+  margin-bottom: 2px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.us__item {
+  width: 113px;
+}
+
+.us__item-img {
+  height: 113px;
+  margin-bottom: 0;
+}
+
+/* .us__card {
+  padding-right: 3px;
+} */
+
+.us__card-title {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.us__card-text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.us__textarea::placeholder, .us__input::placeholder {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.us__textarea {
+  padding: 17px 0 0 23px;
+  border-radius: 20px;
+}
+
+.us__input {
+  height: 50px;
+  padding-left: 23px;
+}
+
+.us__button {
+  margin-bottom: 8px;
+  padding: 16px 43px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.us__checkbox-span {
+  font-size: 9px;
+  line-height: 9px;
+}
+
+/* footer */
+.footer {
+  padding-top: 53px;
+}
+
+
+.footer__container {
+  /* max-width: 256px; */
+  padding-bottom: 9px;
+  gap: 63px;
+}
+
+.footer__nav-list {
+  padding-top: 29px;
+  width: 256px;
+  align-content: baseline;
+  justify-content: start;
+  gap: 24px 79px;
+  height: 216px;
+  align-content: center;
+}
+
+.footer__nav {
+  position: relative;
+  z-index: 1;
+}
+
+.footer__nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+  z-index: -1; /* Чтобы элемент оказался за основным содержимым */
+}
+
+.footer__nav-item {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.footer__span {
+  font-size: 12px;
+  line-height: 12px;
+}
+
 }
